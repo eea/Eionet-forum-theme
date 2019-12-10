@@ -1,0 +1,334 @@
+/* Begin Naaya Blob File styles*/
+/* /var/local/groupware/src/naaya/eggs/naaya.content.bfile/naaya/content/bfile/www/style.css */
+/*  1*/ table.ny-bfile-all-versions {
+/*  2*/     display: none;
+/*  3*/     min-width: 80%;
+/*  4*/ }
+/*  5*/ 
+/*  6*/ ul.ny-bfile-editversions {
+/*  7*/     list-style: none;
+/*  8*/ }
+/* End Naaya Blob File styles*/
+
+/* Begin Naaya Meeting styles*/
+/* /var/local/groupware/src/naaya/eggs/naaya.content.meeting/naaya/content/meeting/www/style.css */
+/*  1*/ table.meeting-registration-methods {
+/*  2*/     width: 50%;
+/*  3*/     margin-left: 50px;
+/*  4*/ }
+/*  5*/ #link_prepare {
+/*  6*/ 	width: 50%;
+/*  7*/ 	float: right;
+/*  8*/ 	display:none;
+/*  9*/ }
+/* 10*/ #search_users {
+/* 11*/ 	width: 50%;
+/* 12*/ 	float: right;
+/* 13*/ 	display:none;
+/* 14*/ }
+/* 15*/ .insert-button{
+/* 16*/ 	padding-top: 5px;
+/* 17*/ }
+/* 18*/ .tree li a, .tree li span{
+/* 19*/ 	white-space:normal !important;
+/* 20*/ 	height:auto !important;
+/* 21*/ }
+/* 22*/ .sitemap_tree{
+/* 23*/ 	padding-top: 5px;
+/* 24*/ }
+/* 25*/ .force-wrap {
+/* 26*/     max-width: 80px;
+/* 27*/     word-wrap: break-word;
+/* 28*/ }
+/* 29*/ .rejected {
+/* 30*/     text-decoration: line-through;
+/* 31*/ }
+/* 32*/ textarea {
+/* 33*/     overflow:hidden;
+/* 34*/ }
+/* End Naaya Meeting styles*/
+
+/* Begin Naaya TalkBack Consultation styles*/
+/* /var/local/groupware/src/naaya/eggs/naaya.content.talkback/naaya/content/talkback/www/talkbackconsultation_style.css */
+/*  1*/ div.consultation_right_box {
+/*  2*/     float: right;
+/*  3*/     width: 170px;
+/*  4*/     border: 1px solid black;
+/*  5*/     padding: 0.5em;
+/*  6*/     background-color:#FAFAFA;
+/*  7*/ }
+/*  8*/ 
+/*  9*/ a.consultation-button {
+/* 10*/     display: block;
+/* 11*/     border: 1px outset black;
+/* 12*/     padding: 0.3em;
+/* 13*/     background-color: #EDE9E3;
+/* 14*/     text-decoration: none;
+/* 15*/     text-align: center;
+/* 16*/     margin-top: 0.1em;
+/* 17*/     color: #042D5D;
+/* 18*/ 
+/* 19*/ }
+/* 20*/ 
+/* 21*/ a.consultation-special-button {
+/* 22*/     display: block;
+/* 23*/     border: 1px outset black;
+/* 24*/     padding: 0.3em;
+/* 25*/     background-color: #D2DFFF;
+/* 26*/     text-decoration: none;
+/* 27*/     text-align: center;
+/* 28*/     margin-top: 0.5em;
+/* 29*/     color: #042D5D;
+/* 30*/ }
+/* 31*/ 
+/* 32*/ div.consultation_right_box a, div.consultation_right_box a:visited { color: #042D5D; }
+/* 33*/ 
+/* 34*/ fieldset.consultation-comments {
+/* 35*/     width: 80%;
+/* 36*/     border: 1px solid black;
+/* 37*/ 
+/* 38*/ }
+/* 39*/ 
+/* 40*/ span.consultation_day_counter {
+/* 41*/     color: blue;
+/* 42*/     font-weight: bold;
+/* 43*/ }
+/* 44*/ 
+/* 45*/ div.talkback-comment_floating_box {
+/* 46*/     position: fixed;
+/* 47*/     overflow: hidden;
+/* 48*/     background-color: white;
+/* 49*/     border: 2px solid green;
+/* 50*/     padding: 2em;
+/* 51*/     z-index: 11; /* Need to be above main sections. */
+/* 52*/     top: 0;
+/* 53*/     left: 50%;
+/* 54*/     transform: translateX(-50%);
+/* 55*/     height: 80vh;
+/* 56*/     margin-top: 2rem;
+/* 57*/ }
+/* 58*/ 
+/* 59*/ div.talkback-comment_floating_box iframe {
+/* 60*/     width: 720px;
+/* 61*/     height: 100%!important;
+/* 62*/     border: none;
+/* 63*/ }
+/* 64*/ 
+/* 65*/ a.tb-iframe-close-bottom, a.tb-iframe-close-top {
+/* 66*/     text-decoration: none;
+/* 67*/     position: absolute;
+/* 68*/     right: 5px;
+/* 69*/     background-color: white;
+/* 70*/     padding: 3px;
+/* 71*/ }
+/* 72*/ a.tb-iframe-close-top {
+/* 73*/     top: 0;
+/* 74*/ }
+/* 75*/ a.tb-iframe-close-bottom {
+/* 76*/     bottom: 0;
+/* 77*/ }
+/* 78*/ 
+/* 79*/ p.talkback-cannot_comment {
+/* 80*/     margin-top: 1.5em;
+/* 81*/ }
+/* 82*/ .talkback-section-edit div.talkback-paragraph {
+/* 83*/     border: 1px solid #888;
+/* 84*/     background: #f5f5f5;
+/* 85*/     padding: .5em;
+/* 86*/ }
+/* 87*/ #middle_port div.talkback-section div h1 {
+/* 88*/     background: transparent;
+/* 89*/     border: none;
+/* 90*/ }
+/* 91*/ 
+/* 92*/ .talkback-section h2 {
+/* 93*/     font-size: 130%;
+/* 94*/     margin: 1em 0;
+/* 95*/     font-weight: bold;
+/* 96*/ }
+/* 97*/ .talkback-section h3 {
+/* 98*/     font-size: 110%;
+/* 99*/     margin: 1em 0;
+/*100*/     font-weight: bold;
+/*101*/ }
+/*102*/ .talkback-section input, .talkback-section textarea {
+/*103*/     border: 1px solid #ccc;
+/*104*/ }
+/*105*/ .tb-comment-body {
+/*106*/     width: calc(100% - 1em);
+/*107*/     overflow: auto;
+/*108*/ }
+/*109*/ .talkback-add_comment_form input,.talkback-add_comment_form textarea {
+/*110*/     border: 1px solid #ccc;
+/*111*/ }
+/*112*/ .talkback-comments_list {
+/*113*/     margin: 0.5em 0;
+/*114*/ }
+/*115*/ .talkback-comments_list ul.tb-comments-tree {
+/*116*/     padding: 0;
+/*117*/ }
+/*118*/ ul.tb-comments-tree div.tb-comment-head {
+/*119*/     background-color: #F2F2F2;
+/*120*/     border: 1px solid #ccc;
+/*121*/     padding: 0 0.5em;
+/*122*/     overflow: auto;
+/*123*/ }
+/*124*/ 
+/*125*/ ul.tb-comments-tree div.tb-comment {
+/*126*/     border: 1px solid #ccc;
+/*127*/     background: #E5E5E5;
+/*128*/     margin: .5em;
+/*129*/ }
+/*130*/ 
+/*131*/ ul.tb-comments-tree div.tb-comment-body {
+/*132*/     margin: 0;
+/*133*/     padding: .5em;
+/*134*/     clear: left;
+/*135*/ }
+/*136*/ ul.tb-comments-tree div.tb-comment-author {
+/*137*/     margin-top: 0.1em;
+/*138*/     padding: 0.3em 0.5em 0 0;
+/*139*/     font-size: 85%;
+/*140*/     font-weight: bold;
+/*141*/     float: left;
+/*142*/ }
+/*143*/ ul.tb-comments-tree div.buttons {
+/*144*/     float: left;
+/*145*/     font-size: 100%;
+/*146*/ }
+/*147*/ ul.tb-comments-tree div.buttons input {
+/*148*/     padding: 0.1em 0.3em 0.1em 0.3em;
+/*149*/     color: #0061A2;
+/*150*/     font-weight: bold;
+/*151*/ }
+/*152*/ ul.tb-comments-tree div.buttons form {
+/*153*/     float: left;
+/*154*/ }
+/*155*/ div.buttons a{
+/*156*/     border: 1px solid #ccc;
+/*157*/     padding: 0.1em 0.3em 0.1em 0.3em;
+/*158*/     margin: 0;
+/*159*/ }
+/*160*/ div.buttons input{
+/*161*/     border: 1px solid #ccc;
+/*162*/     margin: 2px 4px;
+/*163*/     padding: 0 1px;
+/*164*/     background-color: white; color: #666;
+/*165*/     font-weight: bold;
+/*166*/ }
+/*167*/ .talkback-add_comment, .button_sect_edit, a.tb-button{
+/*168*/     margin: 0.5em 0;
+/*169*/     padding: 3px;
+/*170*/     font-size: 85%;
+/*171*/     color: #000;
+/*172*/     text-decoration: none;
+/*173*/     display: inline-block;
+/*174*/     background: #dbe6e3;
+/*175*/     border: 1px solid #78a095;
+/*176*/ }
+/*177*/ .talkback-add_comment:hover, .button_sect_edit:hover {
+/*178*/     border: 1px solid #eee;
+/*179*/ }
+/*180*/ .talkback-add_comment {
+/*181*/     margin: 0;
+/*182*/ }
+/*183*/ .talkback-add_comment-p {
+/*184*/     margin: 0.5em 0;
+/*185*/ }
+/*186*/ 
+/*187*/ .talkback-show_hide_comments a {
+/*188*/     padding: 0.3em;
+/*189*/     border: 1px solid #ccc;
+/*190*/     background: #eee;
+/*191*/     text-decoration: none;
+/*192*/ }
+/*193*/ 
+/*194*/ div.talkback-section_toc {
+/*195*/     float:right;
+/*196*/     clear: right;
+/*197*/     width: 21em;
+/*198*/     border: 3px solid #78a095;
+/*199*/     background-color: #dbe6e3;
+/*200*/     margin: 1em 0 1em 1em;
+/*201*/ }
+/*202*/ 
+/*203*/ div.talkback-section_toc h6 {
+/*204*/     font-size: 1em;
+/*205*/     margin: .6em 1em .6em 1em;
+/*206*/     padding: 0;
+/*207*/     text-align: center;
+/*208*/ }
+/*209*/ 
+/*210*/ div.talkback-section_toc ul {
+/*211*/     list-style: none;
+/*212*/     margin: .6em 1em .6em 1em;
+/*213*/     padding: 0;
+/*214*/ }
+/*215*/ 
+/*216*/ div.talkback-section_toc ul li {
+/*217*/     padding: .1em .5em .1em .5em;
+/*218*/ }
+/*219*/ 
+/*220*/ li.talkback-current_section a {
+/*221*/     font-style: italic;
+/*222*/ }
+/*223*/ 
+/*224*/ li.talkback-section a {
+/*225*/     color: #4E7CB0;
+/*226*/ }
+/*227*/ 
+/*228*/ table.talkback-section_list .talkback-section_list-edit_column {
+/*229*/     width: 4em;
+/*230*/     text-align: center;
+/*231*/ }
+/*232*/ 
+/*233*/ table.talkback-section_list {
+/*234*/     width: 70%;
+/*235*/ }
+/*236*/ 
+/*237*/ p.talkback-section_next_prev span {
+/*238*/     margin: 0 1em 0 1em;
+/*239*/ }
+/*240*/ 
+/*241*/ li.tb-comment-box {
+/*242*/     list-style: none;
+/*243*/ }
+/*244*/ 
+/*245*/ body.tb-embedded {
+/*246*/     font-size: .8em;
+/*247*/     color: #333;
+/*248*/ }
+/*249*/ 
+/*250*/ div.tb-comment-body blockquote {
+/*251*/     border-left: 2px solid #689;
+/*252*/     margin-left: 0;
+/*253*/     padding-left: 8px;
+/*254*/     color: #689;
+/*255*/ }
+/*256*/ 
+/*257*/ div.tb-modal-overlay {
+/*258*/     background-color: #777;
+/*259*/     width: 100%;
+/*260*/     position: absolute;
+/*261*/     top: 0;
+/*262*/     left: 0;
+/*263*/     filter:alpha(opacity=50);
+/*264*/     opacity: 0.5;
+/*265*/ }
+/*266*/ 
+/*267*/ dl.tb-invitations dd {
+/*268*/     margin-bottom: 0;
+/*269*/ }
+/*270*/ dl.tb-invitations.revoked dt {
+/*271*/     text-decoration: line-through;
+/*272*/ }
+/*273*/ table.tb-comments-overview {
+/*274*/     width: 100%;
+/*275*/ }
+/*276*/ .search_users {
+/*277*/     width: 50%;
+/*278*/     float: right;
+/*279*/     display:none;
+/*280*/ }
+/*281*/ 
+/* End Naaya TalkBack Consultation styles*/
