@@ -6,14 +6,17 @@ var sassOptions = {
   };
 var merge = require('merge-stream');
 sass.compiler = require('node-sass');
-
+var rename = require('gulp-rename');
 //compile
 gulp.task('sass', function () {
   var forum = gulp.src('src/forum.scss')
     .pipe(sass(sassOptions).on("error", sass.logError))
-    .pipe(gulp.dest('forum/dist'))
+    .pipe(rename('newtheme.css'))
+    .pipe(gulp.dest('forum/dist/'))
   var site = gulp.src('src/site.scss')
     .pipe(sass(sassOptions).on("error", sass.logError))
+    .pipe(rename('newtheme.css'))
+
     .pipe(gulp.dest('site/dist'));
   return merge(forum,site)
 });
