@@ -1,0 +1,115 @@
+/* The .operations is for the buttons to the right of the page */
+
+.operations {
+    background-color: white;
+	margin: 0;
+}
+.operations h2 {
+	color: black;
+        font-weight: bold;
+        background-color: transparent;
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 120%;
+	padding-left: 10px;
+}
+
+.operations ul {
+	list-style: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+}
+
+.operations li {
+	font-size:.75em;
+	font-family: verdana, helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 100%;
+	white-space: nowrap;
+}
+
+.operations li a {
+	display:block;
+	font-weight: bold;
+	color: #455b6b;
+	text-decoration: none;
+	background: url('button_right.gif') no-repeat;
+	padding: 5px 0px 0px 10px;
+	border-bottom: none;
+	width: 170px;
+	height: 22px;
+}
+.operations li a:hover {
+	color: #b20d00;
+	background-color: transparent;
+}
+.operations li a:active {
+	color: #b20d00;
+	background: url('button_right.gif') no-repeat;
+}
+
+.operations li.help a {
+	background: url('button_right.gif') no-repeat;
+}
+.operations li.help a:active {
+	background: url('button_right.gif') no-repeat;
+}
+
+
+/* The .operations is for the buttons to the right of the page */
+
+#operations {
+	float:right;
+	background-color: white;
+	margin: 0;
+}
+#operations h2 {
+	color: black;
+        font-weight: bold;
+        background-color: transparent;
+	font-family: verdana, helvetica, sans-serif;
+	font-size: 120%;
+	padding-left: 10px;
+}
+
+#operations ul {
+	list-style: none;
+	list-style-image: none;
+	margin: 0;
+	padding: 0;
+}
+
+#operations li {
+	font-size:.75em;
+	font-family: verdana, helvetica, sans-serif;
+	font-weight: bold;
+	line-height: 100%;
+	white-space: nowrap;
+}
+
+#operations li a {
+	display:block;
+	font-weight: bold;
+	color: #455b6b;
+	text-decoration: none;
+	background: url('button_right.gif') no-repeat;
+	padding: 5px 0px 0px 10px;
+	border-bottom: none;
+	width: 170px;
+	height: 22px;
+}
+#operations li a:hover {
+	color: #b20d00;
+	background-color: transparent;
+}
+#operations li a:active {
+	color: #b20d00;
+	background: url('button_right.gif') no-repeat;
+}
+
+#operations li.help a {
+	background: url('button_right.gif') no-repeat;
+}
+#operations li.help a:active {
+	background: url('button_right.gif') no-repeat;
+}

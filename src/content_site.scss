@@ -1,0 +1,139 @@
+/* center part and content */
+#container {
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+	color: #333;
+	background: url(dot-bg.gif) repeat-y 81.5%;
+}
+* html #container { 
+	background: url(dot-bg.gif) repeat-y 82%;
+}
+#middle_port {
+	margin: 0 0  0 0.8%;
+	padding: 0;
+	width: 81%;
+	float: left;
+}
+#center_content {
+	float: left;
+	width: 100%;
+	background: #fff;
+}
+
+#middle_port h1 {
+
+	color: #444;
+	padding: 5px 0 0 5px;
+	font-size: 1.5em;
+	font-weight: normal;
+}
+#middle_port a:link {
+	color: #0061a2;
+}
+#middle_port a:hover {
+	color: #000;
+}
+#middle_port h2 {
+	font-size: 110%;
+	font-weight: normal;
+}
+#middle_port h2, #middle_port h3, #middle_port h4 {
+	padding: 0.2em 0.4em;
+}
+#middle_port h2 a, #middle_port h3 a, #middle_port h4 a {
+	color: white;
+	background-color: #767676;
+}
+.center_portlet_content ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0.2em 0 0.5em 2.4em;
+}
+.center_portlet {
+	margin-top: 0.5em;
+}
+.center_portlet .center_portlet_title {
+	color: #000000;
+	font-size: 1.2em;
+	font-weight: bold;
+	line-height: 1.5em;
+	margin-top: 0.3em;
+	padding-left: 0.3em;
+	position: relative;
+}
+.center_portlet .center_portlet_content {
+	position: relative;
+	line-height: 1.5em;
+}
+.center_portlet .center_portlet_content a {
+	color: blue;
+}
+.postedon {
+	font-size: 90%;
+}
+
+
+.page_title {
+	font-size: 2em;
+}
+/*.page_subtitle {
+}*/
+.additem-left {
+	background: url("arrow-right.gif") no-repeat top left;
+	border: none;
+	width: 25px;
+	height: 25px;
+}
+.additem-right {
+	background: url("arrow-left.gif") no-repeat top left;
+	border: none;
+	width: 25px;
+	height: 25px;
+}
+.moveitem-up {
+	background: url("arrow-up.gif") no-repeat top left;
+	border: none;
+	width: 25px;
+	height: 25px;
+}
+.moveitem-down {
+	background: url("arrow-down.gif") no-repeat top left;
+	border: none;
+	width: 25px;
+	height: 25px;
+}
+
+
+/* Switch to/from full screen mode */
+#outer_wrapper_fs {
+	background-image: none;
+	border-left: 1px solid #666666;
+	border-right: 1px solid #666666;
+}
+#outer_wrapper {
+	margin: 0 auto;
+	/*width: 100%;*/
+	border-left: 1px solid #666666;
+	border-right: 1px solid #666666;
+	background: url(dot-bg.gif) repeat-y 17.5%;
+}
+#topnav li #fs_show {
+	background:transparent url(misc_/Naaya/fullscreenexpand_icon.gif) no-repeat scroll left center;
+	padding:3px 0.5em 1px 16px;
+}
+.fullscreen #left_port {
+	display: none;
+}
+.fullscreen #middle_port {
+	width: 98.2%;
+	margin-left: 0.8%;
+}
+.fullscreen #topnav li #fs_show {
+	background:transparent url(misc_/Naaya/fullscreencollapse_icon.gif) no-repeat scroll left center;
+	padding:3px 0.5em 1px 16px;
+}
+
+body.fullscreen {
+	padding:0 1%;
+}
