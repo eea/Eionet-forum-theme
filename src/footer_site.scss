@@ -14,11 +14,7 @@
 		margin: 0;
 		color: #fff;
 		font-weight: 700;
-	}
-	.links{
-		order: 1;
-		border-bottom: 1px solid #fff;
-        padding-bottom: 1.5em;
+		border-top: 1px solid #fff;
 	}
 	a {
 		color: #fff;
@@ -26,6 +22,9 @@
 		padding: 0.3em;
 			&:hover{
 				text-decoration: underline;
+			}
+			&:last-child{
+				padding-bottom: 1.5em;
 			}
 	}
 }

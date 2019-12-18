@@ -4,51 +4,57 @@
 	height: auto;
 	margin: 0px auto;
 	color: #333;
-	background: url(dot-bg.gif) repeat-y 81.5%;
+	/*background: url(dot-bg.gif) repeat-y 81.5%;*/
 }
-* html #container { 
-	background: url(dot-bg.gif) repeat-y 82%;
-}
-#middle_port {
-	margin: 0 0  0 0.8%;
-	padding: 0;
-	width: 81%;
-	float: left;
-}
+
 #center_content {
 	float: left;
 	width: 100%;
 	background: #fff;
+	font-size: 16px;
+	
 }
 
-#middle_port h1 {
+#middle_port{
+	margin-left:0.8%;
+	padding: 0;
+	width: 81%;
+	float: left;
 
-	color: #444;
-	padding: 5px 0 0 5px;
-	font-size: 1.5em;
-	font-weight: normal;
+	h1 {
+		color: #006699;
+		padding: 5px 0 0 5px;
+		font-size: 32px;
+		font-weight: 600;
+	}
+	h2{
+		font-size: 110%;
+		font-weight: normal;
+	}
+	h2, h3, h4{
+		padding: 0.2em 0.4em;
+		a{
+			color: white;
+			background-color: #767676;
+		}
+	}
+	a{
+		&:link{
+			color: #069;
+			text-decoration: none;
+		}
+		&:hover{
+			color: #bf5900;
+			text-decoration: underline;
+		}	
+	}
 }
-#middle_port a:link {
-	color: #0061a2;
-}
-#middle_port a:hover {
-	color: #000;
-}
-#middle_port h2 {
-	font-size: 110%;
-	font-weight: normal;
-}
-#middle_port h2, #middle_port h3, #middle_port h4 {
-	padding: 0.2em 0.4em;
-}
-#middle_port h2 a, #middle_port h3 a, #middle_port h4 a {
-	color: white;
-	background-color: #767676;
-}
+
+
 .center_portlet_content ul {
 	list-style-type: none;
-	margin: 0;
-	padding: 0.2em 0 0.5em 2.4em;
+	font-size: 16px;
+	padding: 0;
 }
 .center_portlet {
 	margin-top: 0.5em;
@@ -69,16 +75,10 @@
 .center_portlet .center_portlet_content a {
 	color: blue;
 }
-.postedon {
+/*.postedon {
 	font-size: 90%;
-}
-
-
-.page_title {
-	font-size: 2em;
-}
-/*.page_subtitle {
 }*/
+
 .additem-left {
 	background: url("arrow-right.gif") no-repeat top left;
 	border: none;
@@ -122,18 +122,22 @@
 	background:transparent url(misc_/Naaya/fullscreenexpand_icon.gif) no-repeat scroll left center;
 	padding:3px 0.5em 1px 16px;
 }
-.fullscreen #left_port {
-	display: none;
-}
-.fullscreen #middle_port {
-	width: 98.2%;
-	margin-left: 0.8%;
-}
-.fullscreen #topnav li #fs_show {
-	background:transparent url(misc_/Naaya/fullscreencollapse_icon.gif) no-repeat scroll left center;
-	padding:3px 0.5em 1px 16px;
+
+.fullscreen{
+	#left_port {
+		display: none;
+	}
+	#middle_port {
+		width: 98.2%;
+		margin-left: 0.8%;
+	}
+	#topnav li #fs_show {
+		background:transparent url(misc_/Naaya/fullscreencollapse_icon.gif) no-repeat scroll left center;
+		padding:3px 0.5em 1px 16px;
+	}	
 }
 
 body.fullscreen {
 	padding:0 1%;
 }
+

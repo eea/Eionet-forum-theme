@@ -22,21 +22,22 @@ h2 {
 }
 
 a {
+	text-decoration: none;
 	img {
 		border: none;
 	}
-	&:link {
-		color: #0061a2;
-	}
-	&:visited {
+/*	&:link {
+		color: #069;
+	}*/
+/*	&:visited {
 		color: #8e004d;
-	}
+	}*/
 	&:hover {
-		color: #2a6495;
+		color: #bf5900;
 	}
-	&:active {
-		color: #f5821f;
-	}	
+/*	&:active {
+		color: #bf5900;
+	}	*/
 }
 
 dt {
@@ -254,10 +255,14 @@ input[type="button"], input[type="submit"], input[type="reset"] {
 	font-weight: bold; 
 	padding-bottom: 0.4em;
 }
-.quickjumps a, .quickjumps a:visited {
+.quickjumps a{
 	text-decoration: none;
 	color: #024176
 }
+/*.quickjumps a, .quickjumps a:visited {
+	text-decoration: none;
+	color: #024176
+}*/
 .quickjumps h2 {
 	background-color : #eef7f9;
 	text-align: center;

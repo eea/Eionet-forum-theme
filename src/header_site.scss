@@ -4,9 +4,9 @@
 }
 #header {
 	clear: both;
-	height: 102px;
-	border-top: 1px solid #4b5257;
-	background: #A5CED1 url('top_01.png') repeat-y scroll 0 0;
+	/*height: 102px;*/
+/*	border-top: 1px solid #4b5257;
+	background: #A5CED1 url('top_01.png') repeat-y scroll 0 0;*/
 }
 #header{
 	a {
@@ -23,9 +23,9 @@
 	height: 30px;
 	width: 100%;
 	font-size: 80%;
-	color:#315076;
+/*	color:#315076;
 	background-color: #ffffff;
-	border-bottom: 4px solid #6f7072;
+	border-bottom: 4px solid #6f7072;*/
 }
 
 #toolribbon label {
@@ -89,44 +89,28 @@
 #topnav ul.site_actions {
 	margin-right: 3px;
 }
-#left_topnav {
+
+/*to delete*/
+#left_topnav {/*
 	float:left;
 	width:27%;
 	height: 20px;
 	padding: 4px 0.5em;
-	text-align:left;
-}
-#left_topnav ul {
-	margin:0;
-	padding: 0.3em 0 0 0;
-	display: inline; 
-	list-style-type: none;
-	float: left;
-}
-#left_topnav li {
-	padding: 0 0 0 0;
-	margin: 0;
-	display: inline;
-	/*font-family: Arial, Helvetica, sans-serif;*/
-}
-a#eealink {
-	padding-left: 18px;
-	background: url("eeaicon.gif") no-repeat left center;
+	text-align:left;*/
+	display: none;
 }
 #search {
 	margin: 0.3em 10px 0 0;
 	float: right;
 	display: inline;
+	label{
+		color: #333;
+	}
+	form{
+		margin: 0;
+	}
 }
-#search label {
-	color: #333;
-}
-* html #search label {
-	margin-top: -1em;
-}
-* html #search input {
-	font-size: 100% !important;
-}
+
 .search_btn {
 	width: 3em !important;
 	height: 16px !important;
@@ -135,63 +119,21 @@ a#eealink {
 	border: 1px solid #333;
 	background:#fff;
 }
-#search form {
-	margin:0;
-}
 
 .page_title {
-	color: #feffff;
-	padding-left: 25px;
-	padding-top: 20px;
-	font-size: 200%;
-	font-weight: bold;
-	font-variant: small-caps;
-}
-.page_subtitle {
-	color: #feffff;
-	padding-left: 25px;
-	font-weight: bold;
-	font-size: 120%;
-	margin: 0;
-	padding-top: 0;
+	color: #006699;
+	font-size: 28px;
+	font-weight: 600;
 }
 
-#menunav {
-	font: 80% Verdana, Geneva, Arial, Helvetica, sans-serif;
-	float: left;
-	width:100%;
-	max-height: 20%;
-	padding: 0;
-	background:#00446A none repeat scroll 0 0;
-	border-top: 1px solid black;
-	line-height: 2em;
-	border-bottom: 1px solid black;
-	white-space: nowrap;
+/*to remove*/
+.page_subtitle {
+	display: none;
 }
-#menunav ul {
-	list-style: none;
-}
-#menunav li {
-	float: left;
-	text-transform: uppercase;
-	border-right: 1px dotted #ffffff;
-	color: #feffff;
-	z-index: 11; /* Bug in IE6, IE7 */
-}
-* html #menunav li {
-	width: 1.5em;
-}
-#menunav li a, #menunav li a:link, #menunav li a:visited {
-	display: block;
-	text-decoration: none;
-	color: #feffff;
-}
-#menunav li a:hover {
-	background: #fff;
-	color: #000;
-}
-#menunav form {
-    margin-bottom: 0;
+
+/*to delete*/
+#menunav{
+	display: none;
 }
 
 /* start EIONET - Like dropdown menus */
@@ -211,13 +153,18 @@ a#eealink {
 	z-index: 11; /* Bug in IE6, IE7 */
 }
 
-#dropdowns a:link, #dropdowns a:visited {
+#dropdowns a:link{
 	display: block;
 	text-decoration: none;
 	padding: 0 0.5em;
-	/*color: #fff;*/
 }
 
+/*#dropdowns a:link, #dropdowns a:visited {
+	display: block;
+	text-decoration: none;
+	padding: 0 0.5em;
+}
+*/
 #dropdowns ul {
 	display: none;
 	position: absolute;
@@ -301,46 +248,47 @@ a#eealink {
 	margin-left: 0.5em;
 	vertical-align: middle;
 }
+/*to be deleted*/
 #right_logo {
-	float: right;
+/*	float: right;
 	margin-right: 1em;
 	vertical-align: middle;
-	height: 102px;
+	height: 102px;*/
+	display: none;
 }
 
-/* breadcrumb trail */
 #breadcrumbtrail {
 	clear:left;
 	padding: 1px 0px 1px 1em;
-	font-size: 0.75em;
-	font-family: verdana, arial, helvetica, sans-serif;
-	color: #7d7d7d;
-	border-bottom: 1px dotted rgb(143,167,113);
-	background: #fff;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+	a{
+		text-decoration: none;
+		line-height: 25px;
+		&:hover{
+			color: #bf5900;
+			text-decoration: none;
+		}
+	}
 }
-#breadcrumbtrail a {
-	color: #888;
-	text-decoration: none;
-	font-weight:bold;
-	line-height: 25px;
-}
-#breadcrumbtrail a:hover {
-	color: black;
-	text-decoration: underline;
-	font-weight:bold;
-}
+
 .breadcrumbitem {
-	background-image:url(arrow-normal.png);
+	/*background-image:url(arrow-normal.png);*/
 	/*background-position:100% 2px;*/
 	background-position: right center;
 	background-repeat:no-repeat;
 	margin-right:3px;
 	padding-right:11px;
+	color: #333;
 }
-/*.breadcrumbitemlast {
-}*/
+.breadcrumbitemlast {
+	color: #bf5900;
+    font-weight: 600;
+}
+/*to remove html tag*/
 .breadcrumbhead {
-	margin-right:3px;
+	display: none;
 }
 .breadcrumbtail {
 	font-size:0.1px;
