@@ -1,4 +1,4 @@
-/* center part and content */
+f/* center part and content */
 #container {
 	width: 100%;
 	height: auto;
@@ -14,42 +14,6 @@
 	font-size: 16px;
 	
 }
-
-#middle_port{
-	margin-left:0.8%;
-	padding: 0;
-	width: 81%;
-	float: left;
-
-	h1 {
-		color: #006699;
-		padding: 5px 0 0 5px;
-		font-size: 32px;
-		font-weight: 600;
-	}
-	h2{
-		font-size: 110%;
-		font-weight: normal;
-	}
-	h2, h3, h4{
-		padding: 0.2em 0.4em;
-		a{
-			color: white;
-			background-color: #767676;
-		}
-	}
-	a{
-		&:link{
-			color: #069;
-			text-decoration: none;
-		}
-		&:hover{
-			color: #bf5900;
-			text-decoration: underline;
-		}	
-	}
-}
-
 
 .center_portlet_content ul {
 	list-style-type: none;
@@ -108,19 +72,60 @@
 /* Switch to/from full screen mode */
 #outer_wrapper_fs {
 	background-image: none;
-	border-left: 1px solid #666666;
-	border-right: 1px solid #666666;
+/*	border-left: 1px solid #666666;
+	border-right: 1px solid #666666;*/
 }
+
 #outer_wrapper {
-	margin: 0 auto;
-	/*width: 100%;*/
+/*	margin: 0 auto;
+	width: 100%;
 	border-left: 1px solid #666666;
 	border-right: 1px solid #666666;
-	background: url(dot-bg.gif) repeat-y 17.5%;
+	background: url(dot-bg.gif) repeat-y 17.5%;*/
 }
-#topnav li #fs_show {
-	background:transparent url(misc_/Naaya/fullscreenexpand_icon.gif) no-repeat scroll left center;
-	padding:3px 0.5em 1px 16px;
+
+body.fullscreen {
+	padding:0 1%;
+}
+
+
+#middle_port{
+	margin-left:0.8%;
+	padding: 0;
+	width: 81%;
+	float: left;
+
+	h1 {
+		color: #006699;
+		padding: 5px 0 0 5px;
+		font-size: 32px;
+		font-weight: 600;
+	}
+	h2{
+		font-size: 16px;
+		font-weight: 400;
+	}
+	h2, h3, h4{
+		padding: 0.2em 0.4em;
+/*		a{
+			color: white;
+			background-color: #767676;
+		}*/
+	}
+	a{
+		text-decoration: none;
+		/*color: #069;*/
+		&:link{
+			color: #069;
+		}
+		&:visited{
+			color: #069;
+		}
+		&:hover{
+			color: #bf5900;
+			text-decoration: underline;
+		}	
+	}
 }
 
 .fullscreen{
@@ -136,8 +141,3 @@
 		padding:3px 0.5em 1px 16px;
 	}	
 }
-
-body.fullscreen {
-	padding:0 1%;
-}
-

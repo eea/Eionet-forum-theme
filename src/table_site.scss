@@ -1,0 +1,265 @@
+/* styles for the add/edit forms */
+.field {
+	margin: 1em;
+}
+.field-inline {
+	margin: 1em 0 0 1em;
+}
+.field label {
+	display: block;
+	font-weight: bold;
+	margin-bottom: 0.3em;
+}
+.field-inline label {
+	font-weight: bold;
+	margin-bottom: 0.3em;
+}
+.field .invisible {
+	display: none;
+}
+.field-inline .invisible {
+	display: none;
+}
+.form-field label {
+	display: block;
+	width: 20%;
+	float: left;
+}
+.form-fieldset {
+	margin-top: 1em;
+	border: 1px solid #ccc;
+}
+
+/*  Comment box form */
+.comment_box {
+	background-color:#FAFAFA;
+	border: 1px dashed #cccccc;
+	margin:1em;
+	padding:1em;
+	}
+.older {
+	color:grey;
+	}
+a.deletecomment, a.deletecomment:visited {
+	font-size: 90%;
+	float:right;
+	background-color:#EBEBEB;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	padding-left: 18px;
+	border-top:1px solid #eeeeee;
+	border-left:1px solid #eeeeee;
+	border-bottom:1px solid #777777;
+	border-right:1px solid #777777;
+	color:#666666;
+	text-decoration: none;
+	background-image: url(misc_/Naaya/trash.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-bottom: 0.5em;
+}
+a.addcomment, a.addcomment:visited {
+	font-size: 90%;
+	background-color:#EBEBEB;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	padding-left: 18px;
+	border-top:1px solid #eeeeee;
+	border-left:1px solid #eeeeee;
+	border-bottom:1px solid #777777;
+	border-right:1px solid #777777;
+	color:#666666;
+	text-decoration: none;
+	background-image: url(misc_/Naaya/addcomment.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-bottom: 0.5em;
+}
+a.logincomment, a.logincomment:visited {
+	font-size: 90%;
+	background-color:#EBEBEB;
+	padding-top: 3px;
+	padding-bottom: 3px;
+	padding-right: 3px;
+	padding-left: 18px;
+	border-top:1px solid #eeeeee;
+	border-left:1px solid #eeeeee;
+	border-bottom:1px solid #777777;
+	border-right:1px solid #777777;
+	color:#666666;
+	text-decoration: none;
+	background-image: url(misc_/Naaya/logintoadd.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+	margin-bottom: 0.5em;
+}
+.commentbox_title {
+	font-weight: bold;
+	font-size: 110%;
+	padding-left: 17px;
+	background-image: url(misc_/Naaya/comment.gif);
+	background-repeat: no-repeat;
+	background-position: left center;
+}
+.commentbox_content {
+	color:#666666;
+	font-size: 80%;
+}
+.commentbox_add {
+	margin: 1em;
+	clear: both;
+}
+.hr_addcomment {
+	border-top: 1px solid #eaeaea;
+	border-bottom:1px solid white;
+}
+.hr_inside_comment {
+	border-top: 1px solid #eaeaea;
+	border-bottom:1px solid white;
+	margin-top:0.5em;
+}
+
+.hr_invisible {
+	clear: both;
+	border: 1px solid white;
+}
+
+.table_indent td {
+	vertical-align: middle;
+}
+.table_indent label {
+	font-size: 100%;
+	font-weight: bold;
+	color: #444444;
+	vertical-align: middle;
+	padding: 3px;
+}
+
+.padding_td {
+	padding-left: 20px;
+}
+
+.ldap_groups ul {
+	list-style-type: none;
+	padding: 0;
+	margin: 0;
+}
+
+div#sub_btns {
+	margin: 1em;
+}
+div#sub_btns a {
+	margin-right: 0.5em;
+}
+
+/* sortable tables second, to be merged with the existing one */
+.sortable {
+	font-size: 0.9em;
+	line-height:normal;
+}
+.sortable th {
+	background: #ccc;
+	border: 1px outset #fff;
+	margin:0;
+	padding:0;
+	white-space: nowrap;
+	vertical-align: top;
+}
+.sortable th a:link, .sortable th a:visited, .sortable th span {
+	display:block;
+	text-decoration: none;
+	font-weight: normal;
+	color: black;
+	padding:1px 0.5em;
+}
+.sortable th a:hover {
+	color:white;
+	background: #aaa;
+}
+.sortable tbody tr.zebraeven {
+	background-color: white;
+}
+
+/* tables with duplicates */
+tr.duplicate {
+	color: #ff0000;
+}
+tr.duplicate a {
+	color: #ff0000;
+}
+tr.not-duplicate {
+}
+
+
+/* sub-objects listing */
+#folderfile_list th{
+	background-color: #eeeeee;
+	padding: 0.1em;
+	color: #303030;
+	font-size: 0.9em;
+	font-weight: normal;
+	border-right: 1px solid #c7c7c7;
+}
+#folderfile_list td{
+	color: #999999;
+	padding: 0.4em 0.1em;
+	border-bottom: 1px solid #eeeeee;
+}
+#folderfile_list .checkbox{
+	vertical-align: top;
+	text-align: left;
+	padding-left: 0.3em;
+	padding-right: 0.3em;
+}
+#folderfile_list th.checkbox{
+	vertical-align: middle;
+}
+#folderfile_list .type{
+	vertical-align: top;
+	text-align: center;
+	width: 0.5em;
+}
+#folderfile_list .type img{
+	margin-top: 4px;
+}
+#folderfile_list th.type{
+	vertical-align: middle;
+	width: 0.5em;
+}
+#folderfile_list .title-column{
+	vertical-align: middle;
+	text-align: left;
+}
+td.title-column a{
+	color: #0f75b3;
+}
+td.title-column a:hover{
+	text-decoration: none;
+}
+#folderfile_list th.title-column{
+	vertical-align: middle;
+	padding-left: 0.3em;
+}
+#folderfile_list .checkin{
+	vertical-align: top;
+	text-align: center;
+}
+#folderfile_list th.checkin{
+	vertical-align: middle;
+}
+#folderfile_list .checkout{
+	vertical-align: top;
+	text-align: center;
+}
+#folderfile_list th.checkout{
+	vertical-align: middle;
+}
+#folderfile_list .edit{
+	vertical-align: top;
+	text-align: center;
+}
+#folderfile_list th.edit{
+	vertical-align: middle;
+}

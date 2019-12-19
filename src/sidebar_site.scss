@@ -1,18 +1,19 @@
 /* left side and left menu */
 #left_port {
 	margin: 0;
-	/*padding: 0;*/
 	width: 17%;
 	float: left;
 	padding-bottom: 3.5rem;
+	padding-top: 1.5rem;
+	padding-left: 2px;
 }
 .left_portlet {
 	padding: 0 0.2em 0 1em;
 	border-bottom: 1px solid #ddd;	
 
 	ul{
-		list-style-image:none;
-		list-style-position:outside;
+/*		list-style-image:none;
+		list-style-position:outside;*/
 		list-style-type:none;
 		margin:0 0 0.5em;
 		padding-left:0;
@@ -25,26 +26,44 @@
 			padding:0;
 			vertical-align:bottom;
 
+			&:last-child{
+				border-bottom: none !important;
+			}
+
 			a{
-				border:medium none;
-				color: #069;
+/*				border:medium none;
+*/				color: #069;
 				display:block;
-				margin:0;
+				/*margin:0;*/
 				padding:3px 6px 3px 25px;
 				text-decoration:none;
-				background: transparent url('lnav_menu.gif') no-repeat scroll left top;
-
+				/*background: transparent url('lnav_menu.gif') no-repeat scroll left top;*/
+				&:link{
+					color: #069;
+				}
+				&:visited{
+					color: #069;
+				}
 				&:hover{
 					color: #bf5900;
 					text-decoration: underline;
 				}
-/*				&:before{
+				/*&:before{
 				    font-family: 'Glyphicons Halflings';
 				    font-size: 80%;
 				    margin-right: 0;
 				    top: 1px;
 				    content: "\e258";
 				}*/
+			}
+		}
+	}
+	/*to change div with class name*/
+	div{
+		a{
+			color: #069;
+			&:hover{
+				color: #bf5900;
 			}
 		}
 	}
@@ -58,13 +77,12 @@
 	line-height:normal;
 	margin:0.3em 0 0.1em 0;
 	text-align:left;
-
+	padding-bottom: 1rem;
 	a{
 		text-decoration: none;
 		font-weight: bold;
-		color: #222;	
+		color: #333;	
 	}
-
 
 }
 /*right side - menu and content*/
@@ -73,6 +91,7 @@
 	padding: 0;
 	width: 21%;
 	float: left;
+	padding-top: 1.5rem;
 }
 
 .right_portlet {
@@ -80,6 +99,7 @@
 	margin: 0;
 	padding: 0 0 10px 10px;
 	width: 100%;
+	border-bottom: 1px solid #ddd;	
 
 	ul{
 		background: #fff;
@@ -87,40 +107,42 @@
 		list-style-image: none;
 		padding-left: 0;
 		margin: 0;
-		border-bottom: 1px dotted #ccc;
 	}
 
 	li{
-		padding: 0.3em;
-		background: #fff;
-		color: #084173;
-		font-size: 90%;
-		font-weight: bold;
-		line-height: 100%;
-		vertical-align: bottom;
-		margin: 0px;
-		border-top: 1px solid #fefefe;
-		border-bottom: 1px solid #ddd;
-		display: block;
+		border-bottom:1px solid #f2f2f2;
+		font-size: 14px;
+		line-height:100%;
+		margin:0;
+		padding:0;
+		vertical-align:bottom;
+
+		&:last-child{
+			border-bottom: none !important;
+	}
 
 		a {
 			display:block;
-			font-weight: normal;
 			text-decoration: none;
 			color: #44464B;
-			padding: 3px 6px 3px 0;
-			border: none;
-			margin: 0px;
-			&:hover{
-				color: #000;
-			}
+			padding:3px 6px 3px 25px;
+
+/*				&:before{
+				    font-family: 'Glyphicons Halflings';
+				    font-size: 80%;
+				    margin-right: 0;
+				    top: 1px;
+				    content: "\e258";
+				}*/
+
 		}
 	}
 
 	.right_portlet_title {
 		font-size: 20px;
-		color: #333333;
 		margin:0.3em 0 0.1em 0;
+		padding-bottom: 1rem;
+		color: #333;
 	}
 }
 
