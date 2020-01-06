@@ -1,19 +1,23 @@
 /* left side and left menu */
 #left_port {
-	margin: 0;
 	width: 17%;
 	float: left;
-	padding-bottom: 3.5rem;
-	padding-top: 1.5rem;
-	padding-left: 2px;
+	padding-bottom: 3.5em;
+	padding-left: 1em;
+
+	@media screen and (max-width: 1200px){
+		width: 95%;
+	    padding-right: 1em;
+	    padding-bottom: 1.5em;
+	}
 }
 .left_portlet {
 	padding: 0 0.2em 0 1em;
 	border-bottom: 1px solid #ddd;	
 
 	ul{
-/*		list-style-image:none;
-		list-style-position:outside;*/
+		list-style-image:none;
+		list-style-position:outside;
 		list-style-type:none;
 		margin:0 0 0.5em;
 		padding-left:0;
@@ -25,30 +29,26 @@
 			margin:0;
 			padding:0;
 			vertical-align:bottom;
+			padding: .6em 0;
 
 			&:last-child{
 				border-bottom: none !important;
 			}
 
 			a{
-/*				border:medium none;
-*/				color: #069;
+				border:medium none;
+				color: #069;
 				display:block;
-				/*margin:0;*/
+				margin:0;
 				padding:3px 6px 3px 25px;
 				text-decoration:none;
-				/*background: transparent url('lnav_menu.gif') no-repeat scroll left top;*/
-				&:link{
-					color: #069;
-				}
-				&:visited{
-					color: #069;
-				}
+				background: transparent url('lnav_menu.gif') no-repeat scroll left top;
+
 				&:hover{
 					color: #bf5900;
 					text-decoration: underline;
 				}
-				/*&:before{
+/*				&:before{
 				    font-family: 'Glyphicons Halflings';
 				    font-size: 80%;
 				    margin-right: 0;
@@ -58,12 +58,14 @@
 			}
 		}
 	}
-	/*to change div with class name*/
-	div{
-		a{
+
+	div a{
+		span{
 			color: #069;
+			font-size: 14px;
 			&:hover{
 				color: #bf5900;
+				text-decoration: underline;
 			}
 		}
 	}
@@ -77,12 +79,13 @@
 	line-height:normal;
 	margin:0.3em 0 0.1em 0;
 	text-align:left;
-	padding-bottom: 1rem;
+    padding-bottom: 10px;
 	a{
 		text-decoration: none;
 		font-weight: bold;
-		color: #333;	
+		color: #222;	
 	}
+
 
 }
 /*right side - menu and content*/
@@ -91,18 +94,22 @@
 	padding: 0;
 	width: 21%;
 	float: left;
-	padding-top: 1.5rem;
+
+	@media screen and (max-width: 1200px){
+    	width: 100% !important;
+    	order: 2;
+    	padding-bottom: 1.5em;
+    }
 }
 
 .right_portlet {
 	float: left;
 	margin: 0;
-	padding: 0 0 10px 10px;
+	// padding: 0 0 10px 10px;
 	width: 100%;
-	border-bottom: 1px solid #ddd;	
+	border-bottom: 1px solid #ddd;
 
 	ul{
-		background: #fff;
 		list-style-type: none;
 		list-style-image: none;
 		padding-left: 0;
@@ -110,39 +117,43 @@
 	}
 
 	li{
-		border-bottom:1px solid #f2f2f2;
+		padding: .6em 0;
 		font-size: 14px;
-		line-height:100%;
-		margin:0;
-		padding:0;
-		vertical-align:bottom;
-
-		&:last-child{
-			border-bottom: none !important;
-	}
+		font-weight: 400;
+		line-height: 100%;
+		vertical-align: bottom;
+		margin: 0px;
+		// display: block;
+		border-bottom: 1px solid #f2f2f2;
+			&:last-child{
+				border-bottom: none !important;
+			}
 
 		a {
 			display:block;
+			font-weight: 400;
 			text-decoration: none;
 			color: #44464B;
-			padding:3px 6px 3px 25px;
-
-/*				&:before{
-				    font-family: 'Glyphicons Halflings';
-				    font-size: 80%;
-				    margin-right: 0;
-				    top: 1px;
-				    content: "\e258";
-				}*/
-
+			padding: 3px 6px 3px 25px;
+			border: none;
+			margin: 0px;
+			&:hover{
+				color: #000;
+			}
 		}
 	}
 
 	.right_portlet_title {
 		font-size: 20px;
+		font-weight: 600;
+		color: #333333;
 		margin:0.3em 0 0.1em 0;
-		padding-bottom: 1rem;
-		color: #333;
+		padding-bottom: 10px;
+		a{
+			color: #333 !important;
+			&:hover{
+				color: #bf5900 !important;				
+			}
+		}
 	}
 }
-
