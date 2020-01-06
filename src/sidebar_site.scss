@@ -105,7 +105,7 @@
 .right_portlet {
 	float: left;
 	margin: 0;
-	// padding: 0 0 10px 10px;
+	/*padding: 0 0 10px 10px;*/
 	width: 100%;
 	border-bottom: 1px solid #ddd;
 
@@ -123,7 +123,7 @@
 		line-height: 100%;
 		vertical-align: bottom;
 		margin: 0px;
-		// display: block;
+		/*display: block;*/
 		border-bottom: 1px solid #f2f2f2;
 			&:last-child{
 				border-bottom: none !important;
