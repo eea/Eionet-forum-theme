@@ -12,8 +12,12 @@
 	}
 }
 .left_portlet {
-	padding: 0 0.2em 0 1em;
+	padding: 0.5em 0.2em 0 1em;
 	border-bottom: 1px solid #ddd;	
+
+	&:first-child{
+		padding-top: 0;
+	}
 
 	ul{
 		list-style-image:none;

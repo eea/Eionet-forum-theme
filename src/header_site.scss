@@ -7,9 +7,6 @@
 #header{
 	clear: both;
 	padding: 0 2em;
-	/*height: 102px;*/
-	/*border-top: 1px solid #4b5257;
-	background: #A5CED1 url('top_01.png') repeat-y scroll 0 0;*/
 	a {
 		border: none;
 		img {
@@ -20,42 +17,12 @@
 }
 
 /* Tool ribbon start */
-
 #toolribbon{
     height: 30px;
 	width: 100%;
 	font-size: 80%;
 	position: relative;
     top: 1.6em;
-/*	color:#315076;
-	background-color: #ffffff;
-	border-bottom: 4px solid #6f7072;*/
-
-/* 	a{
-	display:inline-block;
-	height: 16px;
-	color: #000;
-	background-color: #ffffff;
-	text-decoration: none;
-	vertical-align: middle;
-	padding: 3px 0.5em 1px 0.5em;
-}
-
-label{
-	display: inline-block;
-	vertical-align: middle;
-}
-
-img{
-	vertical-align: middle;
-}
-
-input{
-	vertical-align:middle;
-	margin: 0;
-	padding: 0;
-} */
-
 }
 
 #topnav {
@@ -63,9 +30,6 @@ input{
 	float:right;
 	display: flex;
 	padding-right: 2em;
-/*	width:70%;
-	height: 20px;
-	padding: 4px 0.5em;*/
 
 	form{
 		margin-bottom: 0;	
@@ -84,7 +48,6 @@ input{
 	ul.site_actions {
 		margin-right: 3px;
 		order: 1;
-		/*font-size: 16px;*/
 	}
 	li {
 		padding: 0;
@@ -125,22 +88,8 @@ input{
 }
 
 
-/*#lefttools {
-	float:left;
-	height: 20px;
-	padding: 4px 0.5em;
-	text-align:left;
-	vertical-align: middle;
-}*/
-
-
 /*to delete;;not included in new style*/
-#left_topnav {/*
-	float:left;
-	width:27%;
-	height: 20px;
-	padding: 4px 0.5em;
-	text-align:left;*/
+#left_topnav {
 	display: none;
 }
 
@@ -203,7 +152,6 @@ input{
 	position: relative;
 	text-transform: uppercase;
 	border-right: 1px dotted #ffffff;
-	/*background-color: #00446a;*/
 	color: #fff;
 	z-index: 11; /* Bug in IE6, IE7 */
 }
@@ -214,12 +162,6 @@ input{
 	padding: 0 0.5em;
 }
 
-/*#dropdowns a:link, #dropdowns a:visited {
-	display: block;
-	text-decoration: none;
-	padding: 0 0.5em;
-}
-*/
 #dropdowns ul {
 	display: none;
 	position: absolute;
@@ -305,53 +247,5 @@ input{
 }
 /*to be deleted*/
 #right_logo {
-/*	float: right;
-	margin-right: 1em;
-	vertical-align: middle;
-	height: 102px;*/
 	display: none;
-}
-
-#breadcrumbtrail {
-	clear:left;
-	padding: 1px 0px 1px 1em;
-    border-bottom: 1px solid #ddd;
-    border-top: 1px solid #ddd;
-    font-size: 14px;
-    padding: .3em 2.3em;
-    margin-bottom: 1.5em;
-	a{
-		text-decoration: none;
-		line-height: 25px;
-		&:hover{
-			color: #bf5900;
-			text-decoration: none;
-		}
-	}
-}
-
-.breadcrumbitem {
-	/*background-image:url(arrow-normal.png);*/
-	/*background-position:100% 2px;*/
-	background-position: right center;
-	background-repeat:no-repeat;
-	margin-right:3px;
-	padding-right:11px;
-	a{
-		color: #333;
-	}
-}
-.breadcrumbitemlast {
-    font-weight: 600;
-    a{
-    	color: #bf5900;
-    }
-}
-
-.breadcrumbhead {
-	display: none;
-}
-.breadcrumbtail {
-	font-size:0.1px;
-	width:1px;
 }

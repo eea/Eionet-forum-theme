@@ -1,0 +1,122 @@
+
+#workarea{
+	width: 78% !important;
+	float: right;
+	padding-left: 15px;
+    padding-right: 15px;
+    padding-bottom: 1.5em;
+    padding-top: 1.5em;
+
+    @media screen and (max-width: 1200px){
+    	width: 95% !important;
+/*    	display: flex;
+    	flex-wrap: wrap;*/
+    }
+
+    h1{
+	   	color: #006699;
+	    font-size: 32px;
+	    font-weight: 600;
+	    position: relative;
+	    top: -.6em;
+    }
+}
+
+.documentDescription {
+    /* The summary text describing the document */
+    margin-top: -1.5em;
+}
+
+
+/*DataTable*/
+
+.datatable {
+	margin: 1em 0;
+	font-weight: 400;
+	padding: .5em;
+	border-collapse: collapse !important;
+	border-top: 1px solid #e5e5e5;
+	border-bottom: 1px solid #e5e5e5;
+
+	th{
+		text-align: center;
+		background-color: #f6f6f6;
+		font-weight: bold;
+		line-height: normal;
+		padding: 0.1em 0.5em;
+	  	text-decoration: none;
+	}
+
+	    thead{
+	    	tr{
+	    		background-color: #f4f4f4;
+
+	    		th {
+				    &:first-child{
+	    				border-left: 1px solid transparent;
+	    			}
+	    			&:last-child{
+	    				border-right: 1px solid transparent;
+	    			}
+				}
+
+	    	}
+	    }
+
+		tbody{
+			tr{
+				&:nth-child(odd){
+					background-color: #fbfbfb;
+				}
+				&:nth-child(even){
+					background-color: #fff;
+				}
+		    	td{
+		    		padding: 8px;
+		    		color: #333;
+				    line-height: 1.42857143;
+				    vertical-align: top;
+				    border-bottom: 1px solid #ddd;
+				    border-right: 1px solid #ddd;
+			    		&:first-child{
+			    		 	border-left: 1px solid transparent;
+			    		}
+			    		&:last-child{
+			    		 	border-right: 1px solid transparent;
+			    		}
+		    	}
+	    	}
+		}
+}
+
+table.dataTable.no-footer {
+	border-bottom: none !important;
+}
+
+table.dataTable thead th{
+	padding: 0px !important;
+}
+
+a.ig_title {
+	color: #069;
+	text-decoration: none;
+
+	&:hover{
+		color: #bf5900;
+		text-decoration: underline;
+	}
+}
+
+
+
+/*User Page*/
+
+a.button{
+	background-color: #069;
+    border-radius: 0 !important;
+    font-weight: 600;
+    color: #fff !important;
+    box-shadow: none;
+    text-shadow: none;
+   	text-decoration: none !important;
+}

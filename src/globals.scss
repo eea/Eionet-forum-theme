@@ -1,25 +1,39 @@
 /* generic elements */
 body {
-	/*padding: 0 2%;*/
 	margin: 0;
-	/*font-size: 85%;*/
 	font-family: Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
-select, input {
- 	/*font-size: 90%;*/
+
+/*site content without footer*/
+#container {
+	width: 100%;
+	height: auto;
+	margin: 0px auto;
+	color: #333;
 }
 
+
+/*input{
+	border-radius: 15px;
+    height: 27px;
+    line-height: inherit;
+    padding: 0 10px;
+    border: 1px solid #dddddd;
+  	&:focus{
+		outline: none;
+    }
+}*/
 
 form{
 	input, select{
-		border-radius: 15px;
-	    height: 27px;
-	    line-height: inherit;
+		border-radius: 15px !important;
+	    height: 27px !important;
+	    line-height: inherit !important;
 	    padding: 0 10px !important;
-	    border: 1px solid #dddddd;
+	    border: 1px solid #dddddd !important;
 
 	    &:focus{
-		   outline: none;
+		   outline: none !important;
 		}
 	}
 }
@@ -34,7 +48,7 @@ fieldset legend {
 	color: #084173;
 }
 h2 {
-	/*border-bottom: 4px solid #CCCCCC;*/
+
 }
 
 a {
@@ -45,9 +59,9 @@ a {
 /*	&:link {
 		color: #069;
 	}*/
-/*	&:visited {
-		color: #8e004d;
-	}*/
+	&:visited {
+		color: #2a6495;
+	}
 	&:hover {
 		color: #bf5900;
 	}
@@ -240,7 +254,7 @@ img.scaled {
 input[type="button"], input[type="submit"], input[type="reset"] {
 	background-color: #069;
     border: 1px solid #003a61;
-    border-radius: 0;
+    border-radius: 0 !important;
     font-weight: 600;
     color: #fff!important;
     box-shadow: none;
@@ -323,3 +337,43 @@ font-size: 1em;
 cursor: default;
 }
 
+
+/* Breadcrumb trail */
+
+/*For site and forum*/
+
+#breadcrumbtrail, .breadcrumbtrail{
+	clear:left;
+	padding: 1px 0px 1px 1em;
+    border-bottom: 1px solid #ddd;
+    border-top: 1px solid #ddd;
+    font-size: 14px;
+    padding: .3em 2.3em;
+    margin-bottom: 1.5em;
+	a {
+		text-decoration: none;
+		line-height: 25px;
+		&:hover {
+			color: #bf5900;
+			text-decoration: none;
+		}
+	}
+}
+
+.breadcrumbitem {
+	margin-right:3px;
+	padding-right:11px;
+	a{
+		color: #333;
+	}
+}
+.breadcrumbitemlast {
+    font-weight: 600;
+    a{
+    	color: #bf5900;
+    }
+}
+
+.breadcrumbhead {
+	display: none;
+}

@@ -1,0 +1,160 @@
+#pagehead{
+	padding: 0 2em;
+}
+
+/* Tool ribbon start */
+#toolribbon {
+	height: 30px;
+    width: 100%;
+    font-size: 80%;
+    position: relative;
+    top: 1.6em;
+}
+
+#toolribbon label {
+	display:inline-block;
+	height: 16px;
+	padding: 3px 0 1px 0;
+	vertical-align: middle;
+}
+
+#toolribbon img {
+	vertical-align:middle;
+}
+
+#toolribbon a {
+	color: #666;
+    margin: 0;
+    padding: 0 6px 0 4px;
+}
+
+/* Modification start */
+/*a#eealink {
+	background: url('eealogo-1.gif') center left no-repeat;
+	height: 16px;
+	width: 183px;
+	text-indent: -9999px;
+}*/
+a#eionetlink {
+	/*font-weight: bold;*/
+	display: none;
+}
+
+/*a#eionetlink:before {
+	content: '>> ';
+}*/
+/* Modification end */
+
+a#ewlink {
+	display: none;
+}
+
+a#loginlink, a#logoutlink {
+	padding-top: 0.3em;
+	order: 2;
+	&:hover{
+		color: #bf5900;
+	}
+}
+
+
+a#printlink {
+	padding: 3px 0.5em 1px 16px;
+	background: url('print_icon.gif') center left no-repeat;
+}
+
+a#printlink span {
+	display: none;
+}
+
+a#rsslink {
+	padding: 3px 0.5em 1px 16px;
+	background: url('rss_icon.gif') center left no-repeat;
+}
+
+a#rsslink span {
+	display: none;
+}
+
+a#skiplink {
+	display: none;
+}
+
+.fullscreen a#fullscreenlink {
+	padding: 3px 0.5em 1px 16px;
+	background: url('fullscreencollapse_icon.gif') center left no-repeat;
+}
+
+a#fullscreenlink {
+	padding: 3px 0.5em 1px 16px;
+	background: url('fullscreenexpand_icon.gif') center left no-repeat;
+}
+
+a#fullscreenlink span {
+	display: none;
+}
+
+a#pagehelplink {
+	padding-left: 18px;
+	background: url('help_icon.gif') center left no-repeat;
+}
+
+#freesrchform, #toolribbon form {
+	display: inline;
+	padding: 0;
+	margin: 0;
+}
+
+#toolribbon input {
+	vertical-align:middle;
+	margin: 0;
+	padding: 0;
+}
+
+#lefttools {
+	display: none;
+}
+
+#righttools {
+	text-align: right;
+    float: right;
+    display: flex;
+    padding-right: 2em;
+}
+
+#freesrchform{
+	label{
+		display: none;
+	}
+}
+
+#freesrchfld {
+	font-size: 95%;
+	width: 9em;
+	height: 14px;
+}
+
+#freesrchbtn{
+	display: none;
+}
+
+
+/* Tool ribbon end */
+
+#menuribbon {
+	display: none;
+}
+
+#networktitle {
+	color: #006699;
+    font-size: 28px;
+    font-weight: 600;
+    position: relative;
+    top: -0.6em;
+    width: 50%;
+}
+
+/*to delete;;not included in new style*/
+#sitetitle {
+	display: none;
+}
