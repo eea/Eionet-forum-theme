@@ -1,10 +1,11 @@
 /* center part and content */
 #center_content {
 	float: left;
-	width: 75% !important;
+	width: 72% !important;
 	background: #fff;
 	font-size: 16px;
-	padding-right: 2.2em;
+	/*padding-left: 15px;*/
+    padding-right: 15px;
 
     @media screen and (max-width: 1200px){
     	width: 100% !important;
@@ -37,35 +38,30 @@
 			font-size: 16px;
 			padding: 0;
 		}
-
-/*		a{
-			color: blue;
-		}*/
 	}
 
 }
 
 #middle_port{
-	width: 80%;
+	width: 77%;
 	float: left;
 	padding-left: 15px;
-    padding-right: 15px;
 
-    @media screen and (min-width: 1200px) and (max-width: 1700px){
-    	width: 78%;
+	@media screen and (max-width: 1200px){
+    	padding-left: 1em;
+    	width: 95%;
     }
 
 	h1 {
 		color: #006699;
-		/*padding: 5px 0 0 5px;*/
 		font-size: 32px;
 		font-weight: 600;
 		position: relative;
 		top: -.6em;
+		/*margin-bottom: -1em !important;*/
 	}
+
 	h2{
-/*		font-size: 110%;
-		font-weight: normal;*/
 		font-size: 16px;
 		color: #069;
 		a{
@@ -75,7 +71,6 @@
 		}
 	}
 	h2, h3, h4{
-		/*padding: 0.2em 0.4em;*/
 		a{
 			color: white;
 			background-color: #767676;
@@ -93,10 +88,6 @@
 		}	
 	}
 }
-
-/*.postedon {
-	font-size: 90%;
-}*/
 
 .additem-left {
 	background: url("arrow-right.gif") no-repeat top left;
@@ -132,10 +123,6 @@
 }
 #outer_wrapper {
 	margin: 0 auto;
-/*	width: 100%;
-	border-left: 1px solid #666666;
-	border-right: 1px solid #666666;
-	background: url(dot-bg.gif) repeat-y 17.5%;*/
 }
 
 body.fullscreen {
@@ -220,7 +207,6 @@ body.fullscreen {
 		    	td{
 		    		padding: 8px;
 		    		color: #333;
-				    line-height: 1.42857143;
 				    vertical-align: top;
 				    border-bottom: 1px solid #ddd;
 				    border-right: 1px solid #ddd;
@@ -325,19 +311,13 @@ body.fullscreen {
 	}
 }
 
-/*dd#admin_textarea{
-	margin-top: -0.5em;
-	margin-left: 3px;
-	width: 650px;
-}
-*/
-
 .datatable {
 	    margin: 1em 0;
 	    border: 1px solid #e5e5e5;
 	    font-weight: 400;
 	    padding: .5em;
 	    border-collapse: collapse;
+	    width: 80% !important;
 	    thead{
 	    	tr{
 	    		background-color: #f4f4f4;
@@ -362,7 +342,6 @@ body.fullscreen {
 		    	td{
 		    		padding: 8px;
 		    		color: #333;
-				    line-height: 1.42857143;
 				    vertical-align: top;
 				    border-bottom: 1px solid #ddd;
 				    border-right: 1px solid #ddd;

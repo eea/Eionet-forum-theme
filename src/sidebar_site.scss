@@ -1,19 +1,23 @@
 /* left side and left menu */
 #left_port {
+	position: relative;
 	width: 17%;
 	float: left;
 	padding-bottom: 3.5em;
-	padding-left: 1em;
+	padding-left: 2em;
+    padding-right: 15px;
 
 	@media screen and (max-width: 1200px){
 		width: 95%;
-	    padding-right: 1em;
+	    padding-left: 1em;
+	    padding-right: 0;
 	    padding-bottom: 1.5em;
 	}
 }
 .left_portlet {
-	padding: 0.5em 0.2em 0 1em;
+	padding-bottom: 10px;
 	border-bottom: 1px solid #ddd;	
+	margin-bottom: 20px;
 
 	&:first-child{
 		padding-top: 0;
@@ -98,20 +102,22 @@
 	padding: 0;
 	width: 21%;
 	float: left;
+    padding-right: 2em;
+    padding-left: 15px;
 
 	@media screen and (max-width: 1200px){
     	width: 100% !important;
     	order: 2;
-    	padding-bottom: 1.5em;
+    	padding: 1em 0 1.5em 0;
     }
 }
 
 .right_portlet {
 	float: left;
 	margin: 0;
-	/*padding: 0 0 10px 10px;*/
-	width: 100%;
 	border-bottom: 1px solid #ddd;
+	padding-bottom: 10px;
+    margin-bottom: 20px;
 
 	ul{
 		list-style-type: none;

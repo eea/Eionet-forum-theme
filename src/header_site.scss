@@ -7,6 +7,9 @@
 #header{
 	clear: both;
 	padding: 0 2em;
+	@media screen and (max-width: 1200px){
+		padding: 0 1em;
+    }
 	a {
 		border: none;
 		img {
@@ -26,8 +29,8 @@
 }
 
 #topnav {
-	text-align:right;
-	float:right;
+	text-align: right;
+	float: right;
 	display: flex;
 	padding-right: 2em;
 
@@ -37,7 +40,8 @@
 	}
 
 	ul {
-		padding:0;
+		padding-top: 0.1em;
+		padding-left: 0;
 		margin: 0.3em 10px 0 0;
 		display: inline; 
 		list-style-type: none;
@@ -58,6 +62,10 @@
 			margin: 0; 
 			padding: 0 6px 0 4px;
 
+			&:visited{
+				color: #666 !important;
+			}
+			
 			&:hover{
 				color: #bf5900;
 			}
@@ -102,6 +110,8 @@
 	label {
 		color: #696969;
 		position: absolute;
+		right: 35em;
+    	top: 0.5em;
 	}
 
 	input {
@@ -123,7 +133,7 @@
 .page_title {
 	color: #006699;
 	font-size: 28px;
-	font-weight: 600;
+	font-weight: 700;
 	position: relative;
     top: -0.6em;
     width: 50%;

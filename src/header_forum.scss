@@ -1,5 +1,8 @@
 #pagehead{
 	padding: 0 2em;
+	@media screen and (max-width: 1200px){
+	    padding-left: 1em;
+	}
 }
 
 /* Tool ribbon start */
@@ -51,6 +54,7 @@ a#ewlink {
 
 a#loginlink, a#logoutlink {
 	padding-top: 0.3em;
+	padding-left: 1em;
 	order: 2;
 	&:hover{
 		color: #bf5900;
