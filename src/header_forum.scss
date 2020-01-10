@@ -58,7 +58,21 @@ a#loginlink, a#logoutlink {
 	order: 2;
 	&:hover{
 		color: #bf5900;
+		text-decoration: none;
+		&:before{
+			color: #bf5900;
+		}
 	}
+
+	&:before{
+		content: "\e161";
+		font-family: 'Glyphicons Halflings';
+		font-size: 11px;
+		display: inline-block;
+		margin-right: .5em;
+		position: relative;
+		top: 1px;
+	}	
 }
 
 
@@ -124,6 +138,16 @@ a#pagehelplink {
     float: right;
     display: flex;
     padding-right: 2em;
+    font-size: 13px;
+
+    a{
+    	&:hover{
+    		text-decoration: none;
+    	}
+    	&:nth-child(2){
+    		padding-top: .3em;
+    	}
+    }
 }
 
 #freesrchform{

@@ -59,7 +59,7 @@
 				color: #069;
 				display:block;
 				margin:0;
-				padding:3px 6px 3px 25px;
+				padding: 3px 0;
 				text-decoration:none;
 				background: transparent url('lnav_menu.gif') no-repeat scroll left top;
 
@@ -67,13 +67,14 @@
 					color: #bf5900;
 					text-decoration: underline;
 				}
-/*				&:before{
-				    font-family: 'Glyphicons Halflings';
+				&:before{
+					font-family: 'Glyphicons Halflings';
 				    font-size: 80%;
 				    margin-right: 0;
 				    top: 1px;
 				    content: "\e258";
-				}*/
+				    padding-right: 5px;
+				}
 			}
 
 	    }

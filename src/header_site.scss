@@ -33,14 +33,16 @@
 	float: right;
 	display: flex;
 	padding-right: 2em;
+	font-size: 13px;
 
 	form{
 		margin-bottom: 0;	
 		order: 2;
+		font-size: 14px;
 	}
 
 	ul {
-		padding-top: 0.1em;
+		padding-top: 0.3em;
 		padding-left: 0;
 		margin: 0.3em 10px 0 0;
 		display: inline; 
@@ -67,7 +69,27 @@
 			}
 			
 			&:hover{
-				color: #bf5900;
+				color: #bf5900 !important;
+				text-decoration: none;
+			}
+		}
+
+		&:nth-child(2){
+			a{
+				&:hover{
+					&:before{color: #bf5900;}
+				}
+				&:nth-child(1){
+					&:before{
+						content: "\e161";
+					    font-family: 'Glyphicons Halflings';
+					    font-size: 11px;
+					    display: inline-block;
+					    margin-right: .5em;
+					    position: relative;
+					    top: 1px;
+					}
+				}
 			}
 		}
 	}
@@ -110,7 +132,7 @@
 	label {
 		color: #696969;
 		position: absolute;
-		right: 35em;
+		right: 32em;
     	top: 0.5em;
 	}
 
