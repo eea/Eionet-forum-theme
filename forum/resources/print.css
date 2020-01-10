@@ -44,10 +44,10 @@ html, body {
 #sitetagline {
 	display:none;
 }
-
+/*
 .breadcrumbtrail {
 	display:none;
-}
+}*/
 
 a:link, a:visited {
 	color: black;

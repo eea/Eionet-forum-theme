@@ -15,13 +15,13 @@ ul.ig_listing li {
 ul.ig_listing li {
 	line-height: 1.1em !important;
 }
-a.ig_title {
+/*a.ig_title {
 	color: #828D8D;
 	font-family: Arial,Helvetica,sans-serif;
 	font-weight: bold;
 	margin-left: 0.2em;
-}
-.ig_subtitle {
+}*/
+/*.ig_subtitle {
 	margin: 0.3em 0 0 1.5em;
 	color: green;
 	font-size: 90%;
@@ -37,30 +37,30 @@ a.ig_title {
 
 .ig_description p {
 	margin-top: 0.5em;
-}
+}*/
 
-#leftcolumn {
-        position: relative;
+/*#leftcolumn {
+    position: relative;
 }
 
 #leftcolumn, #workarea {
-        display: table-cell;
-}
+    display: table-cell;
+}*/
 
 .ie-clear {
-        display: none;
+    display: none;
 }
 
 /**
  * Added 04 Apr. 2012
 */
-.breadcrumbtrail {
+/*.breadcrumbtrail {
         line-height: 25px;
 }
 
 .breadcrumbitem {
         background-position: right center;
-}
+}*/
 
 /* styles for the add/edit forms */
 .field {
