@@ -42,7 +42,7 @@ fieldset {
 	border: 1px solid #cccccc;
 }
 fieldset legend {
-	font-weight: 700;
+	font-weight: 600;
 	/*font-size: 0.9em;*/
 	/*padding: 0 10px;*/
 	color: #084173;
@@ -64,7 +64,6 @@ a {
 	}
 	&:hover {
 		color: #bf5900 !important;
-		text-decoration: underline;
 	}
 /*	&:active {
 		color: #bf5900;
@@ -72,7 +71,7 @@ a {
 }
 
 dt {
-	font-weight: 700;
+	font-weight: 600;
 }
 
 dd {
@@ -128,7 +127,7 @@ td {
 }
 
 th {
-	font-weight: 700; 
+	font-weight: 600; 
 	line-height: normal; 
 	padding: 0.1em 0.5em;
 	text-decoration: none;
@@ -141,7 +140,7 @@ table .number {
 	text-align: right;
 }
 table .sum {
-	font-weight: 700;
+	font-weight: 600;
 }
 table .center {
 	text-align: center;
@@ -187,7 +186,7 @@ table.formtable {
   text-indent: 0;
 }
 .figure-title, .figure-nr {
- font-weight: 700;
+ font-weight: 600;
 }
 .figure-image {
 text-align:center;
@@ -287,7 +286,7 @@ input[type="button"], input[type="submit"], input[type="reset"] {
 	font-size: 80%; 
 	font-style: normal; 
 	line-height: normal; 
-	font-weight: 700; 
+	font-weight: 600; 
 	padding-bottom: 0.4em;
 }
 .quickjumps a{
@@ -349,7 +348,7 @@ cursor: default;
 	border-bottom: 1px solid #ddd;
 	border-top: 1px solid #ddd;
 	font-size: 14px;
-	padding: .3em 2.3em;
+	padding: .3em 2em;
 	margin-bottom: 1.5em;
 
 	@media screen and (max-width: 1200px){
@@ -381,8 +380,14 @@ cursor: default;
 	}
 
 	&:nth-child(2){
-		a:before{
-			content: "\e021";
+		a{
+			&:hover{
+				&:before{color: #bf5900;}
+			}
+			&:before{
+				font-size: 11px;
+				content: "\e021";
+			}
 		}
 	}
 }
@@ -397,12 +402,16 @@ cursor: default;
 }
 
 .breadcrumbitemlast {
-	font-weight: 700;
+	font-weight: 600;
 	a{
 		color: #bf5900;
 
 		&:visited{
 			color: #bf5900 !important;
+		}
+
+		&:before{
+			font-weight: 400;
 		}
 	}
 }
