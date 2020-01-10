@@ -1,7 +1,7 @@
 /* generic elements */
 body {
 	margin: 0;
-	font-family: OpenSans, "Helvetica Neue", Helvetica, Arial, sans-serif;
+	font-family: Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif !important;
 }
 
 /*site content without footer*/
@@ -88,13 +88,11 @@ abbr, acronym, .explain {
 }
 
 q {
-	font-family: Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-style: italic;
 	font-size: 120%;
 }
 
 code {
-	font-family: Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 120%;
 	color: black;
 	background-color: white;
@@ -102,7 +100,6 @@ code {
 }
 
 pre {
-	font-family: Open Sans, "Helvetica Neue", Helvetica, Arial, sans-serif;
 	font-size: 100%;
 	padding: 1em;
 	color: black;
