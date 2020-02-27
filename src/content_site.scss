@@ -4,21 +4,19 @@
 	width: 72% !important;
 	background: #fff;
 	font-size: 16px;
-	/*padding-left: 15px;*/
-    padding-right: 15px;
+	padding-right: 15px;
 
-    @media screen and (max-width: 1200px){
-    	width: 100% !important;
-    	order: 1;
-    }
+	@media screen and (max-width:1200px) {
+		width: 100% !important;
+		order: 1;
+	}
 
 }
-
 
 .center_portlet {
 	margin-top: 0.5em;
 
-	.center_portlet_title{
+	.center_portlet_title {
 		color: #000000;
 		font-size: 1.2em;
 		font-weight: bold;
@@ -33,24 +31,25 @@
 		line-height: 1.5em;
 		padding-left: .5em;
 
-		ul{
+		ul {
 			list-style-type: none;
 			font-size: 16px;
 			padding: 0;
 		}
+
 	}
 
 }
 
-#middle_port{
+#middle_port {
 	width: 77%;
 	float: left;
 	padding-left: 15px;
 
-	@media screen and (max-width: 1200px){
-    	padding-left: 1em;
-    	width: 95%;
-    }
+	@media screen and (max-width:1200px) {
+		padding-left: 1em;
+		width: 95%;
+	}
 
 	h1 {
 		color: #006699;
@@ -58,35 +57,44 @@
 		font-weight: 600;
 		position: relative;
 		top: -.6em;
-		/*margin-bottom: -1em !important;*/
 	}
 
-	h2{
+	h2 {
 		font-size: 16px;
 		color: #069;
-		a{
-			&:hover{
+
+		a {
+			&:hover {
 				color: #bf5900;
 			}
+
 		}
+
 	}
-	h2, h3, h4{
-		a{
+
+	h2, h3, h4 {
+		a {
 			color: white;
 			background-color: #767676;
 		}
+
 	}
-	a{
+
+	a {
 		color: #069;
-		&:link{
+
+		&:link {
 			color: #069;
 			text-decoration: none;
 		}
-		&:hover{
+
+		&:hover {
 			color: #bf5900;
 			text-decoration: underline;
-		}	
+		}
+
 	}
+
 }
 
 .additem-left {
@@ -95,18 +103,21 @@
 	width: 25px;
 	height: 25px;
 }
+
 .additem-right {
 	background: url("arrow-left.gif") no-repeat top left;
 	border: none;
 	width: 25px;
 	height: 25px;
 }
+
 .moveitem-up {
 	background: url("arrow-up.gif") no-repeat top left;
 	border: none;
 	width: 25px;
 	height: 25px;
 }
+
 .moveitem-down {
 	background: url("arrow-down.gif") no-repeat top left;
 	border: none;
@@ -114,22 +125,20 @@
 	height: 25px;
 }
 
-
 /* Switch to/from full screen mode */
 #outer_wrapper_fs {
 	background-image: none;
 	border-left: 1px solid #666666;
 	border-right: 1px solid #666666;
 }
+
 #outer_wrapper {
 	margin: 0 auto;
 }
 
 body.fullscreen {
-	padding:0 1%;
+	padding: 0 1%;
 }
-
-
 
 /* site search page */
 .searchQuery {
@@ -139,106 +148,112 @@ body.fullscreen {
 	top: -2.5em;
 	order: 1;
 
-	@media screen and (max-width: 1200px){
+	@media screen and (max-width:1200px) {
 		width: 100%;
 	}
 
-	ul{
+	ul {
 		float: left;
 		padding: 0 0 1em 0;
-    	margin: 0;
-		li{
+		margin: 0;
+
+		li {
 			float: left;
 			margin: 0.2em;
 			width: 13em;
 			font-weight: 600;
 		}
+
 	}
+
 }
+
 .searchQueryFilters {
-	form{
+	form {
 		background-color: #fcfcfd;
-	    border: 1px solid #e5e5e5;
-	    padding: 15px;
+		border: 1px solid #e5e5e5;
+		padding: 15px;
 
-	    label{
-	    	&:nth-child(4){
-	    		padding-top: 2em;
-	    		font-weight: 600;
-	    	}
-	    }
+		label {
+			&:nth-child(4) {
+				padding-top: 2em;
+				font-weight: 600;
+			}
+
+		}
+
 	}
-}
 
+}
 
 .tooltip {
 	float: right;
 	width: 38%;
 	order: 2;
-    position: relative;
-    top: -5em;
+	position: relative;
+	top: -5em;
 
-	@media screen and (max-width: 1200px){
+	@media screen and (max-width:1200px) {
 		width: 100%;
 		padding-bottom: 1.5em;
 		top: -1em;
 	}
 
-	strong{
+	strong {
 		color: #333;
-	    font-size: 20px;
-	    font-weight: 600;
+		font-size: 20px;
+		font-weight: 600;
 	}
 
-	table{
-	    margin: 1em 0;
-	    border: 1px solid #e5e5e5;
-	    font-weight: 400;
-	    padding: .5em;
-	    border-collapse: collapse;
-		tbody{
-			tr{
-				&:nth-child(odd){
+	table {
+		margin: 1em 0;
+		border: 1px solid #e5e5e5;
+		font-weight: 400;
+		padding: .5em;
+		border-collapse: collapse;
+
+		tbody {
+			tr {
+				&:nth-child(odd) {
 					background-color: #fbfbfb;
 				}
-				&:nth-child(even){
+
+				&:nth-child(even) {
 					background-color: #fff;
 				}
-		    	td{
-		    		padding: 8px;
-		    		color: #333;
-				    vertical-align: top;
-				    border-bottom: 1px solid #ddd;
-				    border-right: 1px solid #ddd;
-			    		&:first-child{
-			    		 	border-left: 1px solid transparent !important;
-			    		}
-			    		&:last-child{
-			    		 	border-right: 1px solid transparent !important;
-			    		}
-		    	}
-	    	}
+
+				td {
+					padding: 8px;
+					color: #333;
+					vertical-align: top;
+					border-bottom: 1px solid #ddd;
+					border-right: 1px solid #ddd;
+				}
+
+			}
+
 		}
+
 	}
+
 }
 
 .tip_item {
-	padding:0.3em 0.3em 0.3em 0;
+	padding: 0.3em 0.3em 0.3em 0;
 	color: #6e8381;
 }
-
 
 /*About*/
 
 /* second site + folder index menu */
-#toolbar{
+#toolbar {
 	margin-top: 1em;
 
-	a{
+	a {
 		text-decoration: none;
 	}
 
-	span{
+	span {
 		white-space: nowrap;
 		font-size: 0.85em;
 		font-weight: bold;
@@ -248,110 +263,134 @@ body.fullscreen {
 		border-bottom: 1px solid #303030;
 		border-right: 1px solid #303030;
 		margin-right: 0.4em;
-		padding:0.15em;
+		padding: 0.15em;
 		padding-left: 0.3em;
 		color: #333333;
 	}
 
-	img{
+	img {
 		position: relative;
 		top: 1px;
 	}
+
 }
 
 #admin_this_folder {
 	display: flex;
 	flex-wrap: wrap;
 	padding-top: 1em;
+
 	a {
 		background-color: #fff;
-	    border: 1px solid #ddd!important;
-	    border-radius: 0;
-	    color: #333!important;
-	    font-weight: 600;
-	    font-size: 16px;
-	    text-shadow: none;
-	    box-shadow: none;
-	    text-decoration: none;
-	    margin-bottom: .5em;
-	    margin-right: .5em;
+		border: 1px solid #ddd !important;
+		border-radius: 0;
+		color: #333 !important;
+		font-weight: 600;
+		font-size: 16px;
+		text-shadow: none;
+		box-shadow: none;
+		text-decoration: none;
+		margin-bottom: .5em;
+		margin-right: .5em;
 
-	    &:hover{
-	    	background-color: #ddd;
-	    	text-decoration: none;
-	    }
-
-		span{
-			margin: 0em 0.3em;
-		    padding: .6em 1em;
+		&:hover {
+			background-color: #ddd;
+			text-decoration: none;
 		}
+
+		span {
+			margin: 0em 0.3em;
+			padding: .6em 1em;
+		}
+
 	}
 
-	#submission{
+	#submission {
 		font-weight: 600;
 		width: 100%;
 		margin-bottom: .5em;
 	}
 
-	img{
+	img {
 		vertical-align: middle;
 		padding-right: 4px;
 	}
 
-	select{
+	select {
 		border-radius: 15px;
-	    height: 27px;
-	    line-height: inherit;
-	    padding: 0 10px !important;
-	    border: 1px solid #dddddd;
+		height: 27px;
+		line-height: inherit;
+		padding: 0 10px !important;
+		border: 1px solid #dddddd;
 
-	    &:focus{
-		   outline: none;
+		&:focus {
+			outline: none;
 		}
+
 	}
+
 }
 
 .datatable {
-	    margin: 1em 0;
-	    border: 1px solid #e5e5e5;
-	    font-weight: 400;
-	    padding: .5em;
-	    border-collapse: collapse;
-	    width: 80% !important;
-	    thead{
-	    	tr{
-	    		background-color: #f4f4f4;
-	    		th{
-	    			&:first-child{
-	    				border-left: 1px solid transparent;
-	    			}
-	    			&:last-child{
-	    				border-right: 1px solid transparent;
-	    			}
-	    		}
-	    	}
-	    }
-		tbody{
-			tr{
-				&:nth-child(odd){
-					background-color: #fbfbfb;
-				}
-				&:nth-child(even){
-					background-color: #fff;
-				}
-		    	td{
-		    		padding: 8px;
-		    		color: #333;
-				    vertical-align: top;
-				    border-bottom: 1px solid #ddd;
-				    border-right: 1px solid #ddd;
-			    		&:first-child{
-			    		 	border-left: 1px solid transparent;
-			    		}
-			    		&:last-child{
-			    		 	border-right: 1px solid transparent;
-			    		}
-		    	}
-	    	}
+	margin: 1em 0;
+	border: 1px solid #e5e5e5;
+	font-weight: 400;
+	padding: .5em;
+	border-collapse: collapse;
+	width: 80% !important;
+
+	thead {
+		tr {
+			background-color: #f4f4f4;
 		}
+
+	}
+
+	tbody {
+		tr {
+			&:nth-child(odd) {
+				background-color: #fbfbfb;
+			}
+
+			&:nth-child(even) {
+				background-color: #fff;
+			}
+
+			td {
+				padding: 8px;
+				color: #333;
+				vertical-align: top;
+				border-bottom: 1px solid #ddd;
+				border-right: 1px solid #ddd;
+			}
+
+		}
+
+	}
+
 }
+
+/*Edit Pages for Library table START*/
+
+/*to be placed in gw_style.css or gw_commons.css*/
+
+.field, .field-inline {
+	margin-top: 1em;
+}
+
+.widget-title, .uploaded_file {
+	font-weight: 600;
+	font-size: 16px;
+}
+
+input[type="checkbox"] {
+	position: relative;
+	top: .5em;
+}
+
+.ny_bfile_editversions {
+	padding: 0;
+	margin-top: -.2em;
+}
+
+/*Edit Pages for Library table END*/
